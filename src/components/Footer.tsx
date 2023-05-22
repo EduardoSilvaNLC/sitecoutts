@@ -10,8 +10,8 @@ function Footer() {
       <HStack
         justifyContent="space-around"
         alignItems={{ base: alinhamento }}
-        flexDirection={{ base: direcao }}
-        height="80vh"
+        flexDirection={{ base: direcao, md: "row" }}
+        height={{ base: "80vh", md: "auto" }}
       >
         <Stack>
           <Text fontWeight={estilo}>Shop and Learn</Text>

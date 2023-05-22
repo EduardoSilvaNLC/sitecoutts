@@ -3,9 +3,15 @@ import gold from "../assets/1.png";
 
 function Gold() {
   const imgMedio = "290px";
+  const imgGrande = "535px";
   return (
     <HStack justifyContent="center">
-      <Image w={{ base: imgMedio }} objectFit="cover" src={gold} />;
+      <Image
+        w={{ base: imgMedio, md: imgGrande }}
+        objectFit="cover"
+        src={gold}
+      />
+      ;
     </HStack>
   );
 }
