@@ -1,4 +1,12 @@
-import { Box, Button, Flex, Heading, Image, Link } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Flex,
+  Heading,
+  Image,
+  Link,
+  Text,
+} from "@chakra-ui/react";
 import goldImagem from "../assets/1.png";
 import { HiOutlineChip } from "react-icons/hi";
 import { SiNvidia } from "react-icons/si";
@@ -57,7 +65,16 @@ function Learn() {
           </Button>
         </Box>
       </Flex>
-      <Box textAlign="center">
+      <Text fontSize="xl" m="auto" textAlign="center" maxW="1020px">
+        If you are looking for a pc gamer with a affordable price the CC Class
+        Gold is perfect for you. Build with high quality pieces provides the
+        user the best experience in games and others activities such as video
+        editing, excel plan, etc. The CC Class Gold was build with a motherboard
+        A520M - PLUS II, socket AM4, so if in the future you want to do an
+        upgrade, you can change the processor with a Ryzen 5, Ryzen 7, Ryzen 9 -
+        5000 Series/ 4000 G-Series/ 3000 Series.
+      </Text>
+      <Box mt="70px" textAlign="center">
         <Link
           href="https://www.ebay.co.uk/itm/404286439961?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_quk-6jtsnw&sssrc=2047675&ssuid=_quk-6jtsnw&widget_ver=artemis&media=COPY"
           isExternal
