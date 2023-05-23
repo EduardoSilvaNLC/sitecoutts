@@ -1,5 +1,6 @@
 import { Box, Button, HStack, Link } from "@chakra-ui/react";
 import { AiOutlineRight } from "react-icons/ai";
+import { Link as Dink } from "react-router-dom";
 
 function GoldLearn() {
   const colorText = "#32BFA8";
@@ -8,11 +9,13 @@ function GoldLearn() {
   return (
     <HStack display="flex" w="18%" justifyContent="space-around" m=" 40px auto">
       <Box fontWeight="medium" color={colorText} display="contents">
-        <Link href="/learn" fontSize={{ base: medio }}>
-          <Button variant="ghost" rightIcon={<AiOutlineRight />}>
-            Learn more
-          </Button>
-        </Link>
+        <Dink to="/learn">
+          <Link fontSize={{ base: medio }}>
+            <Button variant="ghost" rightIcon={<AiOutlineRight />}>
+              Learn more
+            </Button>
+          </Link>
+        </Dink>
       </Box>
       <Box fontWeight="medium" color={colorText} display="contents">
         <Link

@@ -5,7 +5,7 @@ import Learn from "../components/Learn";
 
 const router = createBrowserRouter([
   { path: "/", element: <HomePage /> },
-  { path: "/learn", element: <Learn /> },
+  { path: "/learn", element: <LearnMore /> },
 ]);
 
 export default router;
