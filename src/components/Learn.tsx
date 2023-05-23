@@ -1,12 +1,4 @@
-import {
-  AspectRatio,
-  Box,
-  Button,
-  Flex,
-  Heading,
-  Image,
-  Link,
-} from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Image, Link } from "@chakra-ui/react";
 import goldImagem from "../assets/1.png";
 import { HiOutlineChip } from "react-icons/hi";
 import { SiNvidia } from "react-icons/si";

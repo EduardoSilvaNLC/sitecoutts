@@ -8,7 +8,7 @@ function GoldLearn() {
   return (
     <HStack display="flex" w="18%" justifyContent="space-around" m=" 40px auto">
       <Box fontWeight="medium" color={colorText} display="contents">
-        <Link href="/learnmore" fontSize={{ base: medio }}>
+        <Link href="/learn" fontSize={{ base: medio }}>
           <Button variant="ghost" rightIcon={<AiOutlineRight />}>
             Learn more
           </Button>
