@@ -36,7 +36,7 @@ function Learn() {
         <Box>
           <Image src={goldImagem} />
         </Box>
-        <Box display="flex" alignItems="start" flexDirection="column">
+        <Box m="25px" display="flex" alignItems="start" flexDirection="column">
           <Button variant="ghost" leftIcon={<HiOutlineChip />}>
             Ryzen 3 4100
           </Button>
