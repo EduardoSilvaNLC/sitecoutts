@@ -28,7 +28,7 @@ function Learn() {
       </Heading>
       <Flex
         m="auto"
-        w={{ base: "253px", md: diLargura }}
+        maxW={{ base: "253px", md: diLargura }}
         justifyContent="space-evenly"
         alignItems="center"
         flexDirection={{ base: direcao, md: "row" }}
