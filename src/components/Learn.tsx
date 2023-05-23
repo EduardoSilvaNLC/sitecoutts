@@ -18,6 +18,8 @@ import { TbExternalLink } from "react-icons/tb";
 function Learn() {
   const larga = "50px";
   const medio = "38px";
+  const direcao = "column";
+  const diLargura = "1324px";
 
   return (
     <>
@@ -33,9 +35,10 @@ function Learn() {
       </Heading>
       <Flex
         m="auto"
-        w="1324px"
+        w={{ base: "253px", md: diLargura }}
         justifyContent="space-evenly"
         alignItems="center"
+        flexDirection={{ base: direcao, md: "row" }}
       >
         <Box>
           <Image src={goldImagem} />
