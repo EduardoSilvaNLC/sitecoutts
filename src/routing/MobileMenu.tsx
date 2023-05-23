@@ -7,8 +7,6 @@ import {
   MenuButton,
   MenuItem,
   MenuList,
-  Show,
-  Stack,
 } from "@chakra-ui/react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import Navbar from "./Navbar";

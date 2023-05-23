@@ -1,16 +1,16 @@
 import { Show } from "@chakra-ui/react";
 import "./App.css";
-import AddressTop from "./components/AddressTop";
-import Footer from "./components/Footer";
-import Gold from "./components/Gold";
-import GoldLearn from "./components/GoldLearn";
-import GoldTitle from "./components/GoldTitle";
-import MadeBy from "./components/MadeBy";
-import MobileMenu from "./components/MobileMenu";
-import Navbar from "./components/Navbar";
-import Services from "./components/Services";
-import Carrosel from "./components/Carrosel";
-import Menu from "./components/Menu";
+import AddressTop from "./routing/AddressTop";
+import Footer from "./routing/Footer";
+import Gold from "./routing/Gold";
+import GoldLearn from "./routing/GoldLearn";
+import GoldTitle from "./routing/GoldTitle";
+import MadeBy from "./routing/MadeBy";
+import MobileMenu from "./routing/MobileMenu";
+import Navbar from "./routing/Navbar";
+import Services from "./routing/Services";
+import Carrosel from "./routing/Carrosel";
+import Menu from "./routing/Menu";
 
 function App() {
   return (

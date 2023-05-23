@@ -1,4 +1,4 @@
-import { Box, Button, HStack, Icon, Link } from "@chakra-ui/react";
+import { Box, Button, HStack, Link } from "@chakra-ui/react";
 import { AiOutlineRight } from "react-icons/ai";
 
 function GoldLearn() {
@@ -8,7 +8,7 @@ function GoldLearn() {
   return (
     <HStack display="flex" w="18%" justifyContent="space-around" m=" 40px auto">
       <Box fontWeight="medium" color={colorText} display="contents">
-        <Link href="#" fontSize={{ base: medio }}>
+        <Link href="/learnmore" fontSize={{ base: medio }}>
           <Button variant="ghost" rightIcon={<AiOutlineRight />}>
             Learn more
           </Button>
