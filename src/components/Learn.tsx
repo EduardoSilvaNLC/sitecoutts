@@ -7,6 +7,7 @@ import { FiHardDrive } from "react-icons/fi";
 import { ImPowerCord } from "react-icons/im";
 import { CgBox } from "react-icons/cg";
 import { TbExternalLink } from "react-icons/tb";
+
 function Learn() {
   const larga = "50px";
   const medio = "38px";
