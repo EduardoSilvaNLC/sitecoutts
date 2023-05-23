@@ -10,14 +10,15 @@ import MobileMenu from "./components/MobileMenu";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Carrosel from "./components/Carrosel";
+import Menu from "./components/Menu";
 
 function App() {
   return (
     <>
       <AddressTop />
-
       <Show above="md">
         <Navbar />
+        <Menu />
       </Show>
       <MobileMenu />
       <GoldTitle />
