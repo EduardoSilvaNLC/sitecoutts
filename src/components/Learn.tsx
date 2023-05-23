@@ -24,7 +24,7 @@ function Learn() {
         as="h2"
         fontSize={{ base: medio, md: larga }}
       >
-        CC Class Gold
+        CC CLASS GOLD
       </Heading>
       <Flex
         m="auto"

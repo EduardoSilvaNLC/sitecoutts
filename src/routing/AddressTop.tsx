@@ -18,11 +18,13 @@ function AddressTop() {
         borderBottom="#37373745 1px solid"
         padding="1px"
         fontFamily="poppins"
+        h="27px"
       >
         <Button
           fontWeight={boldness}
           variant={botaoVariante}
           leftIcon={<MdOutlineLocationOn />}
+          size="xs"
         >
           <Link
             href="https://www.google.com/maps/place/Coutts+computers+UK/@52.1988421,0.1199872,13z/data=!4m6!3m5!1s0x88dedeccaf042117:0x3f1c02ad4b8b0b89!8m2!3d52.1988421!4d0.1199872!16s%2Fg%2F11stsmkdwp?hl=en"

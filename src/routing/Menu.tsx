@@ -2,7 +2,7 @@ import { HStack, ListItem, UnorderedList, Link, Image } from "@chakra-ui/react";
 
 function Menu() {
   return (
-    <HStack bg="#32BFA8" color="white" height="40px">
+    <HStack bg="#32BFA8" color="white" height="25px">
       <UnorderedList
         display="flex"
         justifyContent="space-between"
