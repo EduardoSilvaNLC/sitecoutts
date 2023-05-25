@@ -31,25 +31,25 @@ function MobileMenu() {
             >
               <MenuItem>Store</MenuItem>
             </Dink>
-            <MenuItem>
-              <Link
-                href="https://www.ebay.co.uk/usr/couttscomputersltd/Desktops-All-in-Ones/_i.html?_sacat=171957"
-                isExternal
-              >
-                PC Gamer
-              </Link>
-            </MenuItem>
+
+            <Link
+              href="https://www.ebay.co.uk/usr/couttscomputersltd/Desktops-All-in-Ones/_i.html?_sacat=171957"
+              isExternal
+            >
+              <MenuItem>PC Gamer</MenuItem>
+            </Link>
+
             <MenuItem>
               <Link>PC Office</Link>
             </MenuItem>
-            <MenuItem>
-              <Link
-                href="https://www.ebay.co.uk/usr/couttscomputersltd/Computer-Components-Parts/_i.html?_sacat=175673"
-                isExternal
-              >
-                Pheripheral
-              </Link>
-            </MenuItem>
+
+            <Link
+              href="https://www.ebay.co.uk/usr/couttscomputersltd/Computer-Components-Parts/_i.html?_sacat=175673"
+              isExternal
+            >
+              <MenuItem> Pheripheral</MenuItem>
+            </Link>
+
             <MenuItem>
               <Link>Services</Link>
             </MenuItem>
