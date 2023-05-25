@@ -36,12 +36,8 @@ function MobileMenu() {
               href="https://www.ebay.co.uk/usr/couttscomputersltd/Desktops-All-in-Ones/_i.html?_sacat=171957"
               isExternal
             >
-              <MenuItem>PC Gamer</MenuItem>
+              <MenuItem>Computers</MenuItem>
             </Link>
-
-            <MenuItem>
-              <Link>PC Office</Link>
-            </MenuItem>
 
             <Link
               href="https://www.ebay.co.uk/usr/couttscomputersltd/Computer-Components-Parts/_i.html?_sacat=175673"
@@ -50,9 +46,10 @@ function MobileMenu() {
               <MenuItem> Pheripheral</MenuItem>
             </Link>
 
-            <MenuItem>
-              <Link>Services</Link>
-            </MenuItem>
+            <Dink to="/services">
+              <MenuItem>Services</MenuItem>
+            </Dink>
+
             <MenuItem>
               <Link>Q&A</Link>
             </MenuItem>

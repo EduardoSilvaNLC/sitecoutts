@@ -22,20 +22,18 @@ function Menu() {
           href="https://www.ebay.co.uk/usr/couttscomputersltd/Desktops-All-in-Ones/_i.html?_sacat=171957"
           isExternal
         >
-          <ListItem>PC Gamer</ListItem>
+          <ListItem>Computers</ListItem>
         </Link>
-        <Link>
-          <ListItem>PC Office</ListItem>
-        </Link>
+
         <Link
           href="https://www.ebay.co.uk/usr/couttscomputersltd/Computer-Components-Parts/_i.html?_sacat=175673"
           isExternal
         >
           <ListItem>Pheripheral</ListItem>
         </Link>
-        <Link>
+        <Dink to="#">
           <ListItem>Services</ListItem>
-        </Link>
+        </Dink>
         <Link>
           <ListItem>Q&A</ListItem>
         </Link>

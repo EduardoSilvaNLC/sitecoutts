@@ -14,6 +14,7 @@ import {
 } from "@chakra-ui/react";
 import pc from "../assets/pc.png";
 import { FaWhatsapp } from "react-icons/fa";
+import { Link as Dink } from "react-router-dom";
 
 function Services() {
   return (
