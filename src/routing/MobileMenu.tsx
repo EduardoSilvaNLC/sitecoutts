@@ -25,16 +25,31 @@ function MobileMenu() {
           />
           <MenuList>
             <MenuItem>
-              <Link>Store</Link>
+              <Link
+                href="https://www.ebay.co.uk/usr/couttscomputersltd"
+                isExternal
+              >
+                Store
+              </Link>
             </MenuItem>
             <MenuItem>
-              <Link>PC Gamer</Link>
+              <Link
+                href="https://www.ebay.co.uk/usr/couttscomputersltd/Desktops-All-in-Ones/_i.html?_sacat=171957"
+                isExternal
+              >
+                PC Gamer
+              </Link>
             </MenuItem>
             <MenuItem>
               <Link>PC Office</Link>
             </MenuItem>
             <MenuItem>
-              <Link>Pheripheral</Link>
+              <Link
+                href="https://www.ebay.co.uk/usr/couttscomputersltd/Computer-Components-Parts/_i.html?_sacat=175673"
+                isExternal
+              >
+                Pheripheral
+              </Link>
             </MenuItem>
             <MenuItem>
               <Link>Services</Link>
