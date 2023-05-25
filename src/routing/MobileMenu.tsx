@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import Navbar from "./Navbar";
+import { Link as Dink } from "react-router-dom";
 
 function MobileMenu() {
   return (
@@ -25,12 +26,12 @@ function MobileMenu() {
           />
           <MenuList>
             <MenuItem>
-              <Link
-                href="https://www.ebay.co.uk/usr/couttscomputersltd"
-                isExternal
+              <Dink
+                to="https://www.ebay.co.uk/usr/couttscomputersltd"
+                target="_blank"
               >
                 Store
-              </Link>
+              </Dink>
             </MenuItem>
             <MenuItem>
               <Link
