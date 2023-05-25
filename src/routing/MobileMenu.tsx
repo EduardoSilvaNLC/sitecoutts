@@ -25,14 +25,12 @@ function MobileMenu() {
             variant="outline"
           />
           <MenuList>
-            <MenuItem>
-              <Dink
-                to="https://www.ebay.co.uk/usr/couttscomputersltd"
-                target="_blank"
-              >
-                Store
-              </Dink>
-            </MenuItem>
+            <Dink
+              to="https://www.ebay.co.uk/usr/couttscomputersltd"
+              target="_blank"
+            >
+              <MenuItem>Store</MenuItem>
+            </Dink>
             <MenuItem>
               <Link
                 href="https://www.ebay.co.uk/usr/couttscomputersltd/Desktops-All-in-Ones/_i.html?_sacat=171957"
