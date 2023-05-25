@@ -24,6 +24,7 @@ function Services() {
       height="90vh"
       justifyContent="center"
       margin="70px auto"
+      id="services"
     >
       <Text textAlign="center" fontSize="40px" color="white" mt="80px">
         Services

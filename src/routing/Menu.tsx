@@ -1,4 +1,5 @@
 import { HStack, ListItem, UnorderedList, Link, Image } from "@chakra-ui/react";
+import { Link as Dink } from "react-router-dom";
 
 function Menu() {
   return (
@@ -14,16 +15,22 @@ function Menu() {
         fontFamily="poppins"
         fontSize="15px"
       >
-        <Link>
+        <Link href="https://www.ebay.co.uk/usr/couttscomputersltd" isExternal>
           <ListItem>Store</ListItem>
         </Link>
-        <Link>
+        <Link
+          href="https://www.ebay.co.uk/usr/couttscomputersltd/Desktops-All-in-Ones/_i.html?_sacat=171957"
+          isExternal
+        >
           <ListItem>PC Gamer</ListItem>
         </Link>
         <Link>
           <ListItem>PC Office</ListItem>
         </Link>
-        <Link>
+        <Link
+          href="https://www.ebay.co.uk/usr/couttscomputersltd/Computer-Components-Parts/_i.html?_sacat=175673"
+          isExternal
+        >
           <ListItem>Pheripheral</ListItem>
         </Link>
         <Link>

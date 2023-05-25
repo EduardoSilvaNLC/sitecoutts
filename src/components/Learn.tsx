@@ -76,7 +76,7 @@ function Learn() {
       </Text>
       <Box mt="70px" textAlign="center">
         <Link
-          href="https://www.ebay.co.uk/itm/404286439961?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_quk-6jtsnw&sssrc=2047675&ssuid=_quk-6jtsnw&widget_ver=artemis&media=COPY"
+          href="https://www.ebay.co.uk/itm/314610317863?hash=item49403c7a27:g:W40AAOSwtvNkbooP"
           isExternal
         >
           <Button
